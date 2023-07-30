@@ -21,10 +21,11 @@ node ('ubuntu'){
             app.push("latest")
         			}
          }
+    /*
     stage('SECURITY-IMAGE-SCANNER'){
         build 'SECURITY-IMAGE-SCANNER-AQUAMICROSCANNER'
     }
-  
+  */
     
     stage('Pull-image-server') {
     
