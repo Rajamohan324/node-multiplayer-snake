@@ -32,6 +32,9 @@ node ('ubuntu'){
          sh "docker-compose down"
          sh "docker-compose up -d"	
       }
+    stage ('Down-image-Server') {
+        sh "docker-compose down"
+    }
     
     stage('DAST')
         {
